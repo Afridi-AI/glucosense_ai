@@ -44,6 +44,5 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
-# Project secrets — API keys etc. The committed example file
-# `secrets.example.dart` documents the contract.
-lib/core/config/secrets.dart
+# Keep a placeholder secrets file tracked. Add real keys through
+# --dart-define=GEMINI_API_KEY=... or configure your local copy.
